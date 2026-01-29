@@ -8,207 +8,254 @@
 
 [![Flutter](https://img.shields.io/badge/Flutter-3.0+-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
 [![Dart](https://img.shields.io/badge/Dart-3.0+-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-Android%20|%20iOS%20|%20Windows%20|%20macOS%20|%20Linux-lightgrey?style=for-the-badge)](https://github.com/himanshuchaurasiya24/axiom)
+[![Version](https://img.shields.io/badge/Version-3.0.0-blue?style=for-the-badge)]()
+
+*A proprietary encrypted storage solution for modern privacy-conscious users*
 
 </div>
 
 ---
 
-## ✨ Features
+## 🎯 Overview
 
-### 🔒 **Military-Grade Security**
-- **Client-Side Encryption**: All files are encrypted on your device before upload using AES-256-GCM
-- **Zero-Knowledge Architecture**: Your encryption keys never leave your device
-- **Secure Key Derivation**: Device Encryption Keys (DEK) derived using HKDF with salt
-- **Secure File Deletion**: Multi-pass overwrite for temporary files
+**Axiom** is a next-generation encrypted cloud storage application that puts *you* in complete control of your data. Unlike traditional cloud providers, Axiom implements **true client-side encryption** - meaning your files are encrypted on your device before they ever leave, and only you hold the keys.
 
-### 📁 **Smart File Management**
-- **Intelligent Processing**: Small files (<50MB) use RAM-only encryption, large files use optimized disk streaming
-- **Category Organization**: Organize files into custom categories
-- **Advanced File Viewer**: Built-in viewers for images, videos, PDFs, and documents
-- **Batch Operations**: Upload and download multiple files simultaneously
+### Why Axiom?
 
-### 🚀 **Performance & UX**
-- **Background Processing**: Operations continue even when app is minimized
-- **Real-Time Progress**: Dual-phase progress indicators (download + decrypt, encrypt + upload)
-- **Responsive UI**: Smooth animations and instant feedback
-- **Cross-Platform**: Native performance on all major platforms
+In an era of constant data breaches and privacy violations, Axiom offers peace of mind:
 
-### 🛡️ **Privacy First**
-- **Screenshot Protection**: Prevents screenshots on supported platforms (Windows, macOS, iOS)
-- **App Lock**: Secure blur screen when app is backgrounded
-- **No Analytics**: Zero tracking or telemetry
-- **Session Management**: Automatic logout on security events
+- 🔑 **You Hold the Keys** - Not the server, not the cloud provider. Just you.
+- 🔐 **Encrypted Before Upload** - AES-256-GCM encryption happens on your device
+- 🚫 **Zero Server Access** - Even if servers are compromised, your data remains encrypted
+- 🎯 **Cross-Platform** - Native performance on Android, iOS, Windows, macOS, and Linux
+- 🚀 **Optimized Performance** - Smart encryption strategies for files of all sizes
 
 ---
 
-## 🎯 Why Axiom?
-
-In an era where data breaches are commonplace, **Axiom** puts you back in control. Unlike traditional cloud storage providers who have access to your data, Axiom implements **true end-to-end encryption**:
-
-- 🔑 **You hold the keys** - Not the server, not the cloud provider, just you
-- 🔐 **Encrypted before upload** - Files are encrypted on your device before they leave
-- 🚫 **Zero server-side access** - Even if servers are compromised, your data remains encrypted
-- 🎯 **Open Source** - Full transparency, audit the code yourself
-
----
-
-## 📸 Screenshots
+## 📸 Application Screenshots
 
 <div align="center">
-  
-| File List | Upload Progress | File Viewer |
-|-----------|----------------|-------------|
-| *Coming Soon* | *Coming Soon* | *Coming Soon* |
+
+### Splash Screen & Authentication
+
+<img src="assets/screenshots/splash.png" alt="Splash Screen" width="45%"/> <img src="assets/screenshots/login.png" alt="Login Screen" width="45%"/>
+
+### Dashboard & File Management
+
+<img src="assets/screenshots/dashboard.png" alt="Dashboard" width="45%"/> <img src="assets/screenshots/files.png" alt="File List" width="45%"/>
+
+### Real-Time Decryption
+
+<img src="assets/screenshots/decrypting.png" alt="Decryption Progress" width="45%"/>
+
+*Modern, intuitive interface with real-time encryption/decryption progress*
 
 </div>
 
 ---
 
-## 🛠️ Tech Stack
+## ✨ Core Features
 
-### **Core**
-- **Flutter** - Cross-platform UI framework
-- **Dart** - Programming language
-- **Riverpod** - State management
+### 🔒 **Military-Grade Security**
 
-### **Security**
-- **PointyCastle** - Cryptographic primitives (AES-GCM)
-- **HKDF** - Key derivation function
-- **Secure Random** - Cryptographically secure random number generation
+- **AES-256-GCM Encryption**: Industry-standard authenticated encryption for all files
+- **Client-Side Only**: Files are encrypted on your device before upload
+- **Zero-Knowledge Architecture**: Your encryption keys never touch our servers
+- **HKDF Key Derivation**: Secure derivation of Device Encryption Keys (DEK)
+- **Secure Memory Management**: Multi-pass overwrite for temporary files
+- **Screenshot Protection**: Prevents screenshots on Windows, macOS, and iOS
 
-### **Platform Integration**
-- **Isolates** - True background processing for encryption/decryption
-- **Platform Channels** - Native code integration for security features
-- **Media Kit** - High-performance video playback
+### 📁 **Smart File Management**
 
----
+- **Intelligent Processing**:
+  - Small files (<50MB): RAM-only encryption for speed
+  - Large files (>50MB): Optimized disk streaming to handle any size
+- **Category Organization**: Organize files into custom categories
+- **Universal File Viewer**: 
+  - Images (JPG, PNG, WebP, etc.)
+  - Videos (MP4, MKV, AVI, etc.)
+  - Documents (PDF, TXT, etc.)
+  - Audio files
+- **Batch Operations**: Upload and download multiple files simultaneously
+- **Duplicate Detection**: Automatic file renaming to prevent overwrites
 
-## 🚀 Getting Started
+### 🚀 **Performance & UX**
 
-### Prerequisites
+- **Background Processing**: Operations continue even when app is minimized
+- **Real-Time Progress Indicators**:
+  - Dual-phase tracking (Download + Decrypt / Encrypt + Upload)
+  - Live speed monitoring
+  - Accurate completion estimates
+- **Responsive Interface**: 
+  - Smooth 60 FPS animations
+  - Instant feedback on all interactions
+  - Adaptive layouts for all screen sizes
+- **Robust Cancellation**: Clean cancellation support with proper cleanup
 
-- Flutter SDK 3.0 or higher
-- Dart SDK 3.0 or higher
-- Platform-specific development tools:
-  - Android: Android Studio / SDK
-  - iOS: Xcode (macOS only)
-  - Desktop: Platform-specific build tools
+### 🛡️ **Privacy & Safety**
 
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/himanshuchaurasiya24/axiom.git
-   cd axiom
-   ```
-
-2. **Install dependencies**
-   ```bash
-   flutter pub get
-   ```
-
-3. **Configure backend URL**
-   
-   Create `lib/authentication/config.dart`:
-   ```dart
-   const String defaultBaseUrl = 'https://your-backend-url.com';
-   ```
-
-4. **Run the app**
-   ```bash
-   # Android/iOS
-   flutter run
-   
-   # Desktop
-   flutter run -d windows  # or macos, linux
-   ```
+- **App Lock**: Automatic blur screen when backgrounded
+- **Secure Session Management**: Auto-logout on security events
+- **No Analytics**: Zero tracking, telemetry, or data collection
+- **Platform Security**: Integration with system keychains and secure storage
+- **Account Protection**: Built-in account lock and subscription management
 
 ---
 
 ## 🔐 Security Architecture
 
-### Encryption Flow
+### Encryption Workflow
 
 ```
-┌─────────────┐
-│  User File  │
-└──────┬──────┘
-       │
-       ▼
-┌──────────────────┐
-│ Generate IV      │ (16 bytes random)
-└────────┬─────────┘
+┌─────────────────┐
+│   User File     │
+└────────┬────────┘
          │
          ▼
-┌──────────────────┐
-│ AES-256-GCM      │ Key: DEK (derived from master key)
-│ Encryption       │ Mode: Streaming (large files) or RAM (small files)
-└────────┬─────────┘
+┌─────────────────┐
+│ Generate Random │  16-byte Initialization Vector (IV)
+│       IV        │  Unique per file
+└────────┬────────┘
          │
          ▼
-┌──────────────────┐
-│ Upload to Server │ Format: [IV(16) + Ciphertext + Tag(16)]
-└──────────────────┘
+┌─────────────────┐
+│  AES-256-GCM    │  Algorithm: AES-256 in GCM mode
+│  Encryption     │  Key: Device Encryption Key (DEK)
+│                 │  Tag: 16-byte authentication tag
+└────────┬────────┘
+         │
+         ▼
+┌─────────────────┐
+│ Encrypted File  │  Format: [IV(16) + Ciphertext + Tag(16)]
+│ Upload to Server│  Server stores encrypted blob only
+└─────────────────┘
 ```
 
 ### Key Management
-- **Master Key**: Stored securely in platform keychain
-- **Device Encryption Key (DEK)**: Derived from master key using HKDF
-- **File Keys**: Random IV per file, ensuring unique encryption
+
+- **Master Key**: Stored in platform-specific secure storage (Keychain/KeyStore)
+- **Device Encryption Key (DEK)**: Derived from master key using HKDF with salt
+- **File-Level IVs**: Unique random IV generated for each file upload
+- **No Key Transmission**: Keys never leave your device or touch the network
+
+### Data Flow
+
+1. **Upload**: File → Encrypt (Client) → Upload (Encrypted) → Server Storage
+2. **Download**: Server → Download (Encrypted) → Decrypt (Client) → File
+3. **Viewing**: Download → Decrypt → Secure Temp Storage → View → Secure Wipe
 
 ---
 
-## 📦 Key Features Breakdown
+## 🛠️ Technical Stack
 
-### Background Operations
-- Uses `AxiomBackgroundService` to maintain foreground notification
-- Prevents OS from killing the app during long operations
-- Graceful resume on app foregrounding
+<div align="center">
 
-### Progress Indicators
-- **Dual-Phase Tracking**: Separate progress for download/upload and encrypt/decrypt
-- **Smart Estimation**: 0-60% dummy progress for fast operations, real progress for I/O
-- **Cancellation Support**: Clean cancellation with resource cleanup
+| Category | Technology |
+|----------|------------|
+| **Framework** | Flutter 3.0+ |
+| **Language** | Dart 3.0+ |
+| **State Management** | Riverpod |
+| **Encryption** | PointyCastle (AES-256-GCM) |
+| **Key Derivation** | HKDF (HMAC-based KDF) |
+| **Video Playback** | Media Kit |
+| **PDF Rendering** | syncfusion_flutter_pdfviewer |
+| **HTTP Client** | Dio with interceptors |
+| **Secure Storage** | flutter_secure_storage |
+| **Platform Channels** | Native integration (Android/iOS/Desktop) |
 
-### File Viewer
-- **Universal Support**: Images, videos, audio, PDFs, text files
-- **Secure Playback**: Decrypted content served from secure temporary storage
-- **Auto-Cleanup**: Temporary files securely wiped on viewer close
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+</div>
 
 ---
 
-## 📄 License
+## 🎨 Design Philosophy
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Axiom combines **security** with **usability**:
+
+- **Modern UI**: Sleek dark theme with cyan/purple accents
+- **Intuitive Navigation**: Clear visual hierarchy and consistent patterns
+- **Responsive Feedback**: Real-time progress and status updates
+- **Cross-Platform Consistency**: Native feel on every platform
+- **Accessibility**: Semantic labels and keyboard navigation support
 
 ---
 
-## 🙏 Acknowledgments
+## 🚀 Performance Optimizations
 
-- Built with ❤️ using [Flutter](https://flutter.dev)
-- Encryption powered by [PointyCastle](https://pub.dev/packages/pointycastle)
-- State management with [Riverpod](https://riverpod.dev)
+### Encryption Strategy
+
+- **Small Files (<50MB)**: Complete RAM-based encryption/decryption for instant processing
+- **Large Files (>50MB)**: Chunked streaming (5MB chunks) to handle files of any size without memory overflow
+
+### Background Processing
+
+- Uses Dart **Isolates** for true parallel processing
+- Operations continue during:
+  - App minimization
+  - Screen lock
+  - Task switching
+- **AxiomBackgroundService** maintains foreground notification to prevent OS termination
+
+### UI Responsiveness
+
+- Progress updates throttled to 50ms for smooth animations
+- Smart dummy progress (0-60%) for instant feedback
+- Explicit event loop yielding to prevent UI freezing
+- Cancellation checks at every critical point
+
+---
+
+## 🔄 Roadmap
+
+### Upcoming Features
+
+- 📱 **Mobile-First Updates**: Enhanced touch gestures and mobile UX
+- 🔗 **File Sharing**: Secure encrypted sharing with time-limited access
+- 📊 **Usage Analytics Dashboard**: Storage trends and file insights (client-side only)
+- 🌐 **Web Interface**: Responsive web client for browser access
+- 🔍 **Full-Text Search**: Encrypted search across file contents
+- 🎨 **Themes**: Light mode and custom theme support
+- 🗂️ **Advanced Filters**: Smart filters and saved searches
+
+---
+
+## 📞 Support & Contact
+
+For support, feature requests, or inquiries:
+
+- **Email**: support@axiomvault.com
+- **Developer**: [Himanshu Chaurasiya](https://github.com/himanshuchaurasiya24)
+
+---
+
+## 📄 Legal
+
+### Copyright
+
+© 2026 Himanshu Chaurasiya. All rights reserved.
+
+This is proprietary software. Unauthorized copying, distribution, or modification is strictly prohibited.
+
+### Privacy Policy
+
+Axiom follows a strict **zero-knowledge** policy:
+- We cannot access your encrypted files
+- We do not collect analytics or telemetry
+- We do not sell or share user data
+- Encryption keys are stored locally only
 
 ---
 
 <div align="center">
-  
-### 🌟 Star this repo if you find it useful!
 
-**Made with 🔐 by [Himanshu Chaurasiya](https://github.com/himanshuchaurasiya24)**
+### 🔐 Built with Privacy in Mind
+
+**Axiom** - *Your Secure Digital Vault*
+
+**Version 3.0.0** | **Powered by Flutter** | **Encrypted with AES-256-GCM**
+
+---
+
+Made with 🔒 by [Himanshu Chaurasiya](https://github.com/himanshuchaurasiya24)
 
 </div>
