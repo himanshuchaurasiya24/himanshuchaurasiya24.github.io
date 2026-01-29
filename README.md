@@ -39,15 +39,15 @@ In an era of constant data breaches and privacy violations, Axiom offers peace o
 
 ### Splash Screen & Authentication
 
-<img src="assets/screenshots/splash.png" alt="Splash Screen" width="45%"/> <img src="assets/screenshots/login.png" alt="Login Screen" width="45%"/>
+<img src="https://raw.githubusercontent.com/himanshuchaurasiya24/axiom_releases/main/assets/screenshots/splash.png" alt="Splash Screen" width="45%"/> <img src="https://raw.githubusercontent.com/himanshuchaurasiya24/axiom_releases/main/assets/screenshots/login.png" alt="Login Screen" width="45%"/>
 
 ### Dashboard & File Management
 
-<img src="assets/screenshots/dashboard.png" alt="Dashboard" width="45%"/> <img src="assets/screenshots/files.png" alt="File List" width="45%"/>
+<img src="https://raw.githubusercontent.com/himanshuchaurasiya24/axiom_releases/main/assets/screenshots/dashboard.png" alt="Dashboard" width="45%"/> <img src="https://raw.githubusercontent.com/himanshuchaurasiya24/axiom_releases/main/assets/screenshots/files.png" alt="File List" width="45%"/>
 
 ### Real-Time Decryption
 
-<img src="assets/screenshots/decrypting.png" alt="Decryption Progress" width="45%"/>
+<img src="https://raw.githubusercontent.com/himanshuchaurasiya24/axiom_releases/main/assets/screenshots/decrypting.png" alt="Decryption Progress" width="45%"/>
 
 *Modern, intuitive interface with real-time encryption/decryption progress*
 
