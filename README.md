@@ -1,261 +1,577 @@
 <div align="center">
-  
-# 🔐 Axiom
 
-### Your Files. Your Keys. Your Privacy.
+<!-- Cyber-themed Header -->
+<img src="https://raw.githubusercontent.com/himanshuchaurasiya24/axiom_releases/main/assets/screenshots/logo.svg" alt="Axiom Logo" width="140" height="140"/>
 
-**End-to-End Encrypted Cloud Storage Built with Flutter**
+# A X I O M
+### ⚡ SECURE DIGITAL VAULT ⚡
 
-[![Flutter](https://img.shields.io/badge/Flutter-3.0+-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
-[![Dart](https://img.shields.io/badge/Dart-3.0+-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev)
-[![Platform](https://img.shields.io/badge/Platform-Android%20|%20iOS%20|%20Windows%20|%20macOS%20|%20Linux-lightgrey?style=for-the-badge)](https://github.com/himanshuchaurasiya24/axiom)
-[![Version](https://img.shields.io/badge/Version-3.0.0-blue?style=for-the-badge)]()
+<sub>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</sub>
 
-*A proprietary encrypted storage solution for modern privacy-conscious users*
+**`YOUR FILES` • `YOUR KEYS` • `YOUR PRIVACY`**
+
+<sub>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</sub>
+
+<br>
+
+[![Flutter](https://img.shields.io/badge/FLUTTER-3.0+-02569B?style=for-the-badge&logo=flutter&logoColor=00D4FF&labelColor=0A1628)](https://flutter.dev)
+[![Dart](https://img.shields.io/badge/DART-3.0+-0175C2?style=for-the-badge&logo=dart&logoColor=00D4FF&labelColor=0A1628)](https://dart.dev)
+[![AES](https://img.shields.io/badge/AES--256--GCM-ENCRYPTED-00D4FF?style=for-the-badge&logo=lock&logoColor=00D4FF&labelColor=0A1628)](#)
+[![Platform](https://img.shields.io/badge/MULTI--PLATFORM-READY-9D00FF?style=for-the-badge&logo=flutter&logoColor=00D4FF&labelColor=0A1628)](#)
+
+<sub>🔐 ZERO-KNOWLEDGE ARCHITECTURE • CLIENT-SIDE ENCRYPTION • END-TO-END SECURITY 🔐</sub>
 
 </div>
 
----
-
-## 🎯 Overview
-
-**Axiom** is a next-generation encrypted cloud storage application that puts *you* in complete control of your data. Unlike traditional cloud providers, Axiom implements **true client-side encryption** - meaning your files are encrypted on your device before they ever leave, and only you hold the keys.
-
-### Why Axiom?
-
-In an era of constant data breaches and privacy violations, Axiom offers peace of mind:
-
-- 🔑 **You Hold the Keys** - Not the server, not the cloud provider. Just you.
-- 🔐 **Encrypted Before Upload** - AES-256-GCM encryption happens on your device
-- 🚫 **Zero Server Access** - Even if servers are compromised, your data remains encrypted
-- 🎯 **Cross-Platform** - Native performance on Android, iOS, Windows, macOS, and Linux
-- 🚀 **Optimized Performance** - Smart encryption strategies for files of all sizes
+<br>
 
 ---
-
-## 📸 Application Screenshots
 
 <div align="center">
 
-### Splash Screen & Authentication
-
-<img src="https://raw.githubusercontent.com/himanshuchaurasiya24/axiom_releases/main/assets/screenshots/splash.png" alt="Splash Screen" width="45%"/> <img src="https://raw.githubusercontent.com/himanshuchaurasiya24/axiom_releases/main/assets/screenshots/login.png" alt="Login Screen" width="45%"/>
-
-### Dashboard & File Management
-
-<img src="https://raw.githubusercontent.com/himanshuchaurasiya24/axiom_releases/main/assets/screenshots/dashboard.png" alt="Dashboard" width="45%"/> <img src="https://raw.githubusercontent.com/himanshuchaurasiya24/axiom_releases/main/assets/screenshots/files.png" alt="File List" width="45%"/>
-
-### Real-Time Decryption
-
-<img src="https://raw.githubusercontent.com/himanshuchaurasiya24/axiom_releases/main/assets/screenshots/decrypting.png" alt="Decryption Progress" width="45%"/>
-
-*Modern, intuitive interface with real-time encryption/decryption progress*
+## ⚡ TACTICAL OVERVIEW
 
 </div>
 
----
-
-## ✨ Core Features
-
-### 🔒 **Military-Grade Security**
-
-- **AES-256-GCM Encryption**: Industry-standard authenticated encryption for all files
-- **Client-Side Only**: Files are encrypted on your device before upload
-- **Zero-Knowledge Architecture**: Your encryption keys never touch our servers
-- **HKDF Key Derivation**: Secure derivation of Device Encryption Keys (DEK)
-- **Secure Memory Management**: Multi-pass overwrite for temporary files
-- **Screenshot Protection**: Prevents screenshots on Windows, macOS, and iOS
-
-### 📁 **Smart File Management**
-
-- **Intelligent Processing**:
-  - Small files (<50MB): RAM-only encryption for speed
-  - Large files (>50MB): Optimized disk streaming to handle any size
-- **Category Organization**: Organize files into custom categories
-- **Universal File Viewer**: 
-  - Images (JPG, PNG, WebP, etc.)
-  - Videos (MP4, MKV, AVI, etc.)
-  - Documents (PDF, TXT, etc.)
-  - Audio files
-- **Batch Operations**: Upload and download multiple files simultaneously
-- **Duplicate Detection**: Automatic file renaming to prevent overwrites
-
-### 🚀 **Performance & UX**
-
-- **Background Processing**: Operations continue even when app is minimized
-- **Real-Time Progress Indicators**:
-  - Dual-phase tracking (Download + Decrypt / Encrypt + Upload)
-  - Live speed monitoring
-  - Accurate completion estimates
-- **Responsive Interface**: 
-  - Smooth 60 FPS animations
-  - Instant feedback on all interactions
-  - Adaptive layouts for all screen sizes
-- **Robust Cancellation**: Clean cancellation support with proper cleanup
-
-### 🛡️ **Privacy & Safety**
-
-- **App Lock**: Automatic blur screen when backgrounded
-- **Secure Session Management**: Auto-logout on security events
-- **No Analytics**: Zero tracking, telemetry, or data collection
-- **Platform Security**: Integration with system keychains and secure storage
-- **Account Protection**: Built-in account lock and subscription management
-
----
-
-## 🔐 Security Architecture
-
-### Encryption Workflow
-
-```
-┌─────────────────┐
-│   User File     │
-└────────┬────────┘
-         │
-         ▼
-┌─────────────────┐
-│ Generate Random │  16-byte Initialization Vector (IV)
-│       IV        │  Unique per file
-└────────┬────────┘
-         │
-         ▼
-┌─────────────────┐
-│  AES-256-GCM    │  Algorithm: AES-256 in GCM mode
-│  Encryption     │  Key: Device Encryption Key (DEK)
-│                 │  Tag: 16-byte authentication tag
-└────────┬────────┘
-         │
-         ▼
-┌─────────────────┐
-│ Encrypted File  │  Format: [IV(16) + Ciphertext + Tag(16)]
-│ Upload to Server│  Server stores encrypted blob only
-└─────────────────┘
+```ascii
+╔════════════════════════════════════════════════════════════════╗
+║                                                                ║
+║   AXIOM is a next-generation encrypted storage platform       ║
+║   where YOU control your data destiny. True client-side       ║
+║   encryption means your files are locked down BEFORE they     ║
+║   leave your device. Only you possess the decryption keys.    ║
+║                                                                ║
+║   • AES-256-GCM MILITARY-GRADE ENCRYPTION                     ║
+║   • ZERO-KNOWLEDGE SERVER ARCHITECTURE                        ║
+║   • CROSS-PLATFORM NATIVE PERFORMANCE                         ║
+║   • HKDF CRYPTOGRAPHIC KEY DERIVATION                         ║
+║                                                                ║
+╚════════════════════════════════════════════════════════════════╝
 ```
 
-### Key Management
-
-- **Master Key**: Stored in platform-specific secure storage (Keychain/KeyStore)
-- **Device Encryption Key (DEK)**: Derived from master key using HKDF with salt
-- **File-Level IVs**: Unique random IV generated for each file upload
-- **No Key Transmission**: Keys never leave your device or touch the network
-
-### Data Flow
-
-1. **Upload**: File → Encrypt (Client) → Upload (Encrypted) → Server Storage
-2. **Download**: Server → Download (Encrypted) → Decrypt (Client) → File
-3. **Viewing**: Download → Decrypt → Secure Temp Storage → View → Secure Wipe
-
----
-
-## 🛠️ Technical Stack
+<br>
 
 <div align="center">
 
-| Category | Technology |
-|----------|------------|
-| **Framework** | Flutter 3.0+ |
-| **Language** | Dart 3.0+ |
-| **State Management** | Riverpod |
-| **Encryption** | PointyCastle (AES-256-GCM) |
-| **Key Derivation** | HKDF (HMAC-based KDF) |
-| **Video Playback** | Media Kit |
-| **PDF Rendering** | syncfusion_flutter_pdfviewer |
-| **HTTP Client** | Dio with interceptors |
-| **Secure Storage** | flutter_secure_storage |
-| **Platform Channels** | Native integration (Android/iOS/Desktop) |
+## 🎯 CORE DIRECTIVES
 
 </div>
 
----
+<table>
+<tr>
+<td align="center" width="25%">
+<br>
+<img src="https://img.shields.io/badge/🔑-YOU_CONTROL-00D4FF?style=for-the-badge&labelColor=0A1628" />
+<br><br>
+<b>SOVEREIGN KEY CONTROL</b>
+<br>
+<sub>Not servers. Not providers.<br>Just <b>YOU</b>.</sub>
+<br><br>
+</td>
+<td align="center" width="25%">
+<br>
+<img src="https://img.shields.io/badge/🔐-PRE--ENCRYPTED-9D00FF?style=for-the-badge&labelColor=0A1628" />
+<br><br>
+<b>ON-DEVICE ENCRYPTION</b>
+<br>
+<sub>AES-256-GCM locks your<br>data before upload</sub>
+<br><br>
+</td>
+<td align="center" width="25%">
+<br>
+<img src="https://img.shields.io/badge/🛡️-ZERO--SERVER-00D4FF?style=for-the-badge&labelColor=0A1628" />
+<br><br>
+<b>ZERO KNOWLEDGE</b>
+<br>
+<sub>Server breach?<br>Your data stays locked.</sub>
+<br><br>
+</td>
+<td align="center" width="25%">
+<br>
+<img src="https://img.shields.io/badge/⚡-OPTIMIZED-9D00FF?style=for-the-badge&labelColor=0A1628" />
+<br><br>
+<b>PERFORMANCE TUNED</b>
+<br>
+<sub>Smart processing for<br>any file size</sub>
+<br><br>
+</td>
+</tr>
+</table>
 
-## 🎨 Design Philosophy
-
-Axiom combines **security** with **usability**:
-
-- **Modern UI**: Sleek dark theme with cyan/purple accents
-- **Intuitive Navigation**: Clear visual hierarchy and consistent patterns
-- **Responsive Feedback**: Real-time progress and status updates
-- **Cross-Platform Consistency**: Native feel on every platform
-- **Accessibility**: Semantic labels and keyboard navigation support
-
----
-
-## 🚀 Performance Optimizations
-
-### Encryption Strategy
-
-- **Small Files (<50MB)**: Complete RAM-based encryption/decryption for instant processing
-- **Large Files (>50MB)**: Chunked streaming (5MB chunks) to handle files of any size without memory overflow
-
-### Background Processing
-
-- Uses Dart **Isolates** for true parallel processing
-- Operations continue during:
-  - App minimization
-  - Screen lock
-  - Task switching
-- **AxiomBackgroundService** maintains foreground notification to prevent OS termination
-
-### UI Responsiveness
-
-- Progress updates throttled to 50ms for smooth animations
-- Smart dummy progress (0-60%) for instant feedback
-- Explicit event loop yielding to prevent UI freezing
-- Cancellation checks at every critical point
-
----
-
-## 🔄 Roadmap
-
-### Upcoming Features
-
-- 📱 **Mobile-First Updates**: Enhanced touch gestures and mobile UX
-- 🔗 **File Sharing**: Secure encrypted sharing with time-limited access
-- 📊 **Usage Analytics Dashboard**: Storage trends and file insights (client-side only)
-- 🌐 **Web Interface**: Responsive web client for browser access
-- 🔍 **Full-Text Search**: Encrypted search across file contents
-- 🎨 **Themes**: Light mode and custom theme support
-- 🗂️ **Advanced Filters**: Smart filters and saved searches
-
----
-
-## 📞 Support & Contact
-
-For support, feature requests, or inquiries:
-
-- **Email**: support@axiomvault.com
-- **Developer**: [Himanshu Chaurasiya](https://github.com/himanshuchaurasiya24)
-
----
-
-## 📄 Legal
-
-### Copyright
-
-© 2026 Himanshu Chaurasiya. All rights reserved.
-
-This is proprietary software. Unauthorized copying, distribution, or modification is strictly prohibited.
-
-### Privacy Policy
-
-Axiom follows a strict **zero-knowledge** policy:
-- We cannot access your encrypted files
-- We do not collect analytics or telemetry
-- We do not sell or share user data
-- Encryption keys are stored locally only
+<br>
 
 ---
 
 <div align="center">
 
-### 🔐 Built with Privacy in Mind
+## 📡 INTERFACE RECONNAISSANCE
 
-**Axiom** - *Your Secure Digital Vault*
+<sub>▼ SYSTEM SCREENSHOTS ▼</sub>
 
-**Version 3.0.0** | **Powered by Flutter** | **Encrypted with AES-256-GCM**
+</div>
+
+<br>
+
+<div align="center">
+
+### 🌐 ENTRY SEQUENCE
+
+<table>
+<tr>
+<td width="50%" align="center">
+<img src="https://raw.githubusercontent.com/himanshuchaurasiya24/axiom_releases/main/assets/screenshots/splash.png" alt="Initialization" style="border: 2px solid #00D4FF; border-radius: 8px;"/>
+<br>
+<img src="https://img.shields.io/badge/INITIALIZATION-SEQUENCE-00D4FF?style=flat-square&labelColor=0A1628" />
+</td>
+<td width="50%" align="center">
+<img src="https://raw.githubusercontent.com/himanshuchaurasiya24/axiom_releases/main/assets/screenshots/login.png" alt="Authentication" style="border: 2px solid #9D00FF; border-radius: 8px;"/>
+<br>
+<img src="https://img.shields.io/badge/SECURE-AUTHENTICATION-9D00FF?style=flat-square&labelColor=0A1628" />
+</td>
+</tr>
+</table>
+
+### 🎯 COMMAND CENTER
+
+<table>
+<tr>
+<td width="50%" align="center">
+<img src="https://raw.githubusercontent.com/himanshuchaurasiya24/axiom_releases/main/assets/screenshots/dashboard.png" alt="Dashboard" style="border: 2px solid #00D4FF; border-radius: 8px;"/>
+<br>
+<img src="https://img.shields.io/badge/TACTICAL-DASHBOARD-00D4FF?style=flat-square&labelColor=0A1628" />
+</td>
+<td width="50%" align="center">
+<img src="https://raw.githubusercontent.com/himanshuchaurasiya24/axiom_releases/main/assets/screenshots/files.png" alt="Files" style="border: 2px solid #9D00FF; border-radius: 8px;"/>
+<br>
+<img src="https://img.shields.io/badge/FILE-MANAGEMENT-9D00FF?style=flat-square&labelColor=0A1628" />
+</td>
+</tr>
+</table>
+
+### ⚡ REAL-TIME DECRYPTION
+
+<table>
+<tr>
+<td align="center">
+<img src="https://raw.githubusercontent.com/himanshuchaurasiya24/axiom_releases/main/assets/screenshots/decrypting.png" alt="Decryption" style="border: 2px solid #00D4FF; border-radius: 8px;"/>
+<br>
+<img src="https://img.shields.io/badge/LIVE_PROGRESS-MONITORING-00D4FF?style=flat-square&labelColor=0A1628" />
+</td>
+</tr>
+</table>
+
+</div>
+
+<br>
 
 ---
 
-Made with 🔒 by [Himanshu Chaurasiya](https://github.com/himanshuchaurasiya24)
+<div align="center">
+
+## 🔒 SECURITY PROTOCOLS
+
+</div>
+
+<table width="100%">
+<tr>
+<td width="50%">
+
+### 🛡️ ENCRYPTION LAYER
+
+```yaml
+Algorithm: AES-256-GCM
+Mode: Authenticated Encryption
+Key Size: 256-bit
+IV: 16-byte Random (per file)
+Tag: 16-byte Authentication
+Processing: Client-Side Only
+```
+
+</td>
+<td width="50%">
+
+### 🔑 KEY MANAGEMENT
+
+```yaml
+Master Key: Platform Keychain
+Derivation: HKDF with Salt
+DEK: Device Encryption Key
+Transmission: NEVER
+Storage: Local Only
+Access: User Exclusive
+```
+
+</td>
+</tr>
+</table>
+
+<details>
+<summary><h3>🔐 ADVANCED SECURITY FEATURES</h3></summary>
+
+<br>
+
+| PROTOCOL | DESCRIPTION | STATUS |
+|----------|-------------|--------|
+| **🔒 Client-Side Encryption** | All files encrypted before upload | `ACTIVE` |
+| **🔑 Zero-Knowledge Design** | Server has zero access to keys | `ACTIVE` |
+| **🧬 HKDF Key Derivation** | Cryptographic key generation | `ACTIVE` |
+| **🗑️ Secure Memory Wipe** | Multi-pass overwrite on cleanup | `ACTIVE` |
+| **📸 Screenshot Protection** | Prevents unauthorized captures | `ACTIVE` |
+| **🔐 Session Security** | Auto-logout on security events | `ACTIVE` |
+
+</details>
+
+<br>
+
+---
+
+<div align="center">
+
+## 📁 FILE OPERATIONS
+
+</div>
+
+<details open>
+<summary><h3>⚡ INTELLIGENT PROCESSING ENGINE</h3></summary>
+
+<br>
+
+```
+┌─────────────────────────────────────────────────────────┐
+│                                                         │
+│  FILE SIZE < 50MB                                      │
+│  ├─> RAM-ONLY ENCRYPTION                               │
+│  ├─> INSTANT PROCESSING                                │
+│  └─> ZERO DISK I/O                                     │
+│                                                         │
+│  FILE SIZE > 50MB                                      │
+│  ├─> OPTIMIZED STREAMING (5MB CHUNKS)                  │
+│  ├─> UNLIMITED SIZE SUPPORT                            │
+│  └─> MEMORY EFFICIENT                                  │
+│                                                         │
+└─────────────────────────────────────────────────────────┘
+```
+
+</details>
+
+<details open>
+<summary><h3>🎯 UNIVERSAL FILE SUPPORT</h3></summary>
+
+<br>
+
+<table>
+<tr>
+<td align="center" width="25%">
+<br>
+<img src="https://img.shields.io/badge/🖼️-IMAGES-00D4FF?style=for-the-badge&labelColor=0A1628" />
+<br><br>
+JPG • PNG • WebP<br>HEIC • GIF • BMP
+<br><br>
+</td>
+<td align="center" width="25%">
+<br>
+<img src="https://img.shields.io/badge/🎬-VIDEOS-9D00FF?style=for-the-badge&labelColor=0A1628" />
+<br><br>
+MP4 • MKV • AVI<br>MOV • WebM • FLV
+<br><br>
+</td>
+<td align="center" width="25%">
+<br>
+<img src="https://img.shields.io/badge/📄-DOCUMENTS-00D4FF?style=for-the-badge&labelColor=0A1628" />
+<br><br>
+PDF • TXT • DOCX<br>XLSX • PPTX • MD
+<br><br>
+</td>
+<td align="center" width="25%">
+<br>
+<img src="https://img.shields.io/badge/🎵-AUDIO-9D00FF?style=for-the-badge&labelColor=0A1628" />
+<br><br>
+MP3 • WAV • FLAC<br>AAC • OGG • M4A
+<br><br>
+</td>
+</tr>
+</table>
+
+</details>
+
+<details open>
+<summary><h3>🚀 PERFORMANCE SPECS</h3></summary>
+
+<br>
+
+| METRIC | SPECIFICATION |
+|--------|---------------|
+| **🔄 Background Processing** | Dart Isolates (True Parallel) |
+| **📊 Progress Tracking** | Dual-Phase (DL+Decrypt / Encrypt+UL) |
+| **✨ UI Framerate** | 60 FPS Guaranteed |
+| **⚡ Update Throttle** | 50ms for Smooth Animation |
+| **🛑 Cancellation** | Clean Shutdown + Resource Cleanup |
+| **🎯 Smart Progress** | 0-60% Instant Feedback |
+
+</details>
+
+<br>
+
+---
+
+<div align="center">
+
+## 🔐 ENCRYPTION WORKFLOW
+
+</div>
+
+```mermaid
+%%{init: {'theme':'dark', 'themeVariables': { 'primaryColor':'#00D4FF','primaryTextColor':'#fff','primaryBorderColor':'#00D4FF','lineColor':'#9D00FF','secondaryColor':'#0A1628','tertiaryColor':'#1a2332'}}}%%
+graph LR
+    A[📁 User File] -->|Generate IV| B[🎲 Random IV]
+    B -->|Encrypt| C[🔐 AES-256-GCM]
+    C -->|Package| D[📦 IV+Cipher+Tag]
+    D -->|Upload| E[☁️ Server Storage]
+    
+    E -->|Download| F[📥 Encrypted Blob]
+    F -->|Decrypt| G[🔓 AES-256-GCM]
+    G -->|Verify| H[✅ Authenticated]
+    H -->|Output| I[📄 Your File]
+    
+    style A fill:#00D4FF,stroke:#00D4FF,color:#0A1628
+    style C fill:#9D00FF,stroke:#9D00FF,color:#fff
+    style E fill:#1a2332,stroke:#00D4FF,color:#00D4FF
+    style G fill:#00D4FF,stroke:#00D4FF,color:#0A1628
+    style I fill:#00D4FF,stroke:#00D4FF,color:#0A1628
+```
+
+<br>
+
+---
+
+<div align="center">
+
+## 🛠️ TECH STACK
+
+<sub>▼ POWERED BY CUTTING-EDGE TECHNOLOGY ▼</sub>
+
+</div>
+
+<br>
+
+<div align="center">
+
+### CORE FRAMEWORK
+
+![Flutter](https://img.shields.io/badge/FLUTTER_3.0+-02569B?style=for-the-badge&logo=flutter&logoColor=00D4FF&labelColor=0A1628)
+![Dart](https://img.shields.io/badge/DART_3.0+-0175C2?style=for-the-badge&logo=dart&logoColor=00D4FF&labelColor=0A1628)
+![Riverpod](https://img.shields.io/badge/RIVERPOD-STATE_MGMT-9D00FF?style=for-the-badge&logo=flutter&logoColor=00D4FF&labelColor=0A1628)
+
+### CRYPTOGRAPHY
+
+![PointyCastle](https://img.shields.io/badge/POINTYCASTLE-AES_ENGINE-00D4FF?style=for-the-badge&logo=lock&logoColor=00D4FF&labelColor=0A1628)
+![HKDF](https://img.shields.io/badge/HKDF-KEY_DERIVATION-9D00FF?style=for-the-badge&logo=key&logoColor=00D4FF&labelColor=0A1628)
+![AES](https://img.shields.io/badge/AES--256--GCM-ENCRYPTION-00D4FF?style=for-the-badge&logo=shield&logoColor=00D4FF&labelColor=0A1628)
+
+### PLATFORM INTEGRATION
+
+![Media Kit](https://img.shields.io/badge/MEDIA_KIT-VIDEO_ENGINE-9D00FF?style=for-the-badge&logo=play&logoColor=00D4FF&labelColor=0A1628)
+![Syncfusion](https://img.shields.io/badge/SYNCFUSION-PDF_VIEWER-00D4FF?style=for-the-badge&logo=adobe&logoColor=00D4FF&labelColor=0A1628)
+![Dio](https://img.shields.io/badge/DIO-HTTP_CLIENT-9D00FF?style=for-the-badge&logo=server&logoColor=00D4FF&labelColor=0A1628)
+
+### SUPPORTED PLATFORMS
+
+![Android](https://img.shields.io/badge/ANDROID-3DDC84?style=for-the-badge&logo=android&logoColor=0A1628)
+![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=apple&logoColor=00D4FF)
+![Windows](https://img.shields.io/badge/WINDOWS-0078D6?style=for-the-badge&logo=windows&logoColor=00D4FF)
+![macOS](https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=00D4FF)
+![Linux](https://img.shields.io/badge/LINUX-FCC624?style=for-the-badge&logo=linux&logoColor=0A1628)
+
+</div>
+
+<br>
+
+---
+
+<div align="center">
+
+## 🗺️ DEVELOPMENT ROADMAP
+
+</div>
+
+<table>
+<tr>
+<td align="center" width="33%">
+
+### 📱 PHASE 1
+**MOBILE OPTIMIZATION**
+
+```
+✓ Touch Gestures
+✓ Mobile UX
+✓ Offline Mode
+✓ Background Sync
+```
+
+</td>
+<td align="center" width="33%">
+
+### 🔗 PHASE 2
+**COLLABORATION**
+
+```
+→ Secure Sharing
+→ Time-Limited Access
+→ Multi-User
+→ Permissions
+```
+
+</td>
+<td align="center" width="33%">
+
+### 🌐 PHASE 3
+**WEB PLATFORM**
+
+```
+→ Web Client
+→ PWA Support
+→ Browser Crypto
+→ Universal Access
+```
+
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+
+### 🔍 PHASE 4
+**ADVANCED SEARCH**
+
+```
+→ Full-Text Search
+→ Encrypted Index
+→ Smart Filters
+→ Query Builder
+```
+
+</td>
+<td align="center" width="33%">
+
+### 📊 PHASE 5
+**ANALYTICS**
+
+```
+→ Usage Insights
+→ Storage Trends
+→ File Analytics
+→ Client-Side Only
+```
+
+</td>
+<td align="center" width="33%">
+
+### 🎨 PHASE 6
+**CUSTOMIZATION**
+
+```
+→ Light Mode
+→ Custom Themes
+→ Layout Options
+→ User Preferences
+```
+
+</td>
+</tr>
+</table>
+
+<br>
+
+---
+
+<div align="center">
+
+## 📞 SUPPORT CHANNELS
+
+</div>
+
+<div align="center">
+
+[![Email](https://img.shields.io/badge/EMAIL-himanshuchaurasiya24@gmail.com-00D4FF?style=for-the-badge&logo=gmail&logoColor=00D4FF&labelColor=0A1628)](mailto:himanshuchaurasiya24@gmail.com)
+[![Developer](https://img.shields.io/badge/DEVELOPER-himanshuchaurasiya24-9D00FF?style=for-the-badge&logo=github&logoColor=00D4FF&labelColor=0A1628)](https://github.com/himanshuchaurasiya24)
+
+</div>
+
+<br>
+
+---
+
+<div align="center">
+
+## ⚖️ LEGAL & PRIVACY
+
+</div>
+
+### COPYRIGHT NOTICE
+
+```
+█████╗ ██╗  ██╗██╗ ██████╗ ███╗   ███╗
+██╔══██╗╚██╗██╔╝██║██╔═══██╗████╗ ████║
+███████║ ╚███╔╝ ██║██║   ██║██╔████╔██║
+██╔══██║ ██╔██╗ ██║██║   ██║██║╚██╔╝██║
+██║  ██║██╔╝ ██╗██║╚██████╔╝██║ ╚═╝ ██║
+╚═╝  ╚═╝╚═╝  ╚═╝╚═╝ ╚═════╝ ╚═╝     ╚═╝
+
+© 2026 Himanshu Chaurasiya. All Rights Reserved.
+```
+
+**PROPRIETARY SOFTWARE** - Unauthorized copying, distribution, or modification is strictly prohibited.
+
+### PRIVACY POLICY
+
+<table width="100%">
+<tr>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/DATA_ACCESS-ZERO-00D4FF?style=for-the-badge&labelColor=0A1628" />
+<br><sub>We cannot access<br>your encrypted files</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/ANALYTICS-NONE-9D00FF?style=for-the-badge&labelColor=0A1628" />
+<br><sub>Zero tracking,<br>telemetry, or logging</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/DATA_SHARING-NEVER-00D4FF?style=for-the-badge&labelColor=0A1628" />
+<br><sub>We never sell or<br>share user data</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/KEYS-LOCAL_ONLY-9D00FF?style=for-the-badge&labelColor=0A1628" />
+<br><sub>Encryption keys<br>stored locally only</sub>
+</td>
+</tr>
+</table>
+
+<br>
+
+---
+
+<div align="center">
+
+<sub>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</sub>
+
+### 🔐 BUILT WITH PRIVACY IN MIND
+
+<img src="https://raw.githubusercontent.com/himanshuchaurasiya24/axiom_releases/main/assets/screenshots/logo.svg" alt="Axiom Logo" width="50" height="50"/>
+
+**A X I O M**
+
+*Your Secure Digital Vault*
+
+<sub>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</sub>
+
+<br>
+
+![Version](https://img.shields.io/badge/VERSION-3.0.0-00D4FF?style=for-the-badge&labelColor=0A1628)
+![Flutter](https://img.shields.io/badge/POWERED_BY-FLUTTER-02569B?style=for-the-badge&logo=flutter&logoColor=00D4FF&labelColor=0A1628)
+![Encryption](https://img.shields.io/badge/ENCRYPTED_WITH-AES--256--GCM-9D00FF?style=for-the-badge&logo=lock&logoColor=00D4FF&labelColor=0A1628)
+
+<br>
+
+<sub>🔒 Crafted with Security & Privacy by **[Himanshu Chaurasiya](https://github.com/himanshuchaurasiya24)** 🔒</sub>
+
+<sub>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</sub>
 
 </div>
