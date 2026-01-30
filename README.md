@@ -14,10 +14,10 @@
 
 <br>
 
-[![Flutter](https://img.shields.io/badge/FLUTTER-3.0+-02569B?style=for-the-badge&logo=flutter&logoColor=00D4FF&labelColor=0A1628)](https://flutter.dev)
-[![Dart](https://img.shields.io/badge/DART-3.0+-0175C2?style=for-the-badge&logo=dart&logoColor=00D4FF&labelColor=0A1628)](https://dart.dev)
-[![AES](https://img.shields.io/badge/AES--256--GCM-ENCRYPTED-00D4FF?style=for-the-badge&logo=lock&logoColor=00D4FF&labelColor=0A1628)](#)
-[![Platform](https://img.shields.io/badge/MULTI--PLATFORM-READY-9D00FF?style=for-the-badge&logo=flutter&logoColor=00D4FF&labelColor=0A1628)](#)
+![Flutter](https://img.shields.io/badge/FLUTTER-3.0+-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/DART-3.0+-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![AES](https://img.shields.io/badge/AES--256--GCM-ENCRYPTED-00D4FF?style=for-the-badge&logo=lock&logoColor=white)
+![Platform](https://img.shields.io/badge/MULTI--PLATFORM-READY-9D00FF?style=for-the-badge&logo=flutter&logoColor=white)
 
 <sub>🔐 ZERO-KNOWLEDGE ARCHITECTURE • CLIENT-SIDE ENCRYPTION • END-TO-END SECURITY 🔐</sub>
 
@@ -61,7 +61,7 @@
 <tr>
 <td align="center" width="25%">
 <br>
-<img src="https://img.shields.io/badge/🔑-YOU_CONTROL-00D4FF?style=for-the-badge&labelColor=0A1628" />
+<img src="https://img.shields.io/badge/🔑-YOU_CONTROL-00D4FF?style=for-the-badge" />
 <br><br>
 <b>SOVEREIGN KEY CONTROL</b>
 <br>
@@ -70,7 +70,7 @@
 </td>
 <td align="center" width="25%">
 <br>
-<img src="https://img.shields.io/badge/🔐-PRE--ENCRYPTED-9D00FF?style=for-the-badge&labelColor=0A1628" />
+<img src="https://img.shields.io/badge/🔐-PRE--ENCRYPTED-9D00FF?style=for-the-badge" />
 <br><br>
 <b>ON-DEVICE ENCRYPTION</b>
 <br>
@@ -79,7 +79,7 @@
 </td>
 <td align="center" width="25%">
 <br>
-<img src="https://img.shields.io/badge/🛡️-ZERO--SERVER-00D4FF?style=for-the-badge&labelColor=0A1628" />
+<img src="https://img.shields.io/badge/🛡️-ZERO--SERVER-00D4FF?style=for-the-badge" />
 <br><br>
 <b>ZERO KNOWLEDGE</b>
 <br>
@@ -88,7 +88,7 @@
 </td>
 <td align="center" width="25%">
 <br>
-<img src="https://img.shields.io/badge/⚡-OPTIMIZED-9D00FF?style=for-the-badge&labelColor=0A1628" />
+<img src="https://img.shields.io/badge/⚡-OPTIMIZED-9D00FF?style=for-the-badge" />
 <br><br>
 <b>PERFORMANCE TUNED</b>
 <br>
@@ -121,12 +121,12 @@
 <td width="50%" align="center">
 <img src="https://raw.githubusercontent.com/himanshuchaurasiya24/axiom_releases/main/assets/screenshots/splash.png" alt="Initialization" style="border: 2px solid #00D4FF; border-radius: 8px;"/>
 <br>
-<img src="https://img.shields.io/badge/INITIALIZATION-SEQUENCE-00D4FF?style=flat-square&labelColor=0A1628" />
+<img src="https://img.shields.io/badge/INITIALIZATION-SEQUENCE-00D4FF?style=flat-square" />
 </td>
 <td width="50%" align="center">
 <img src="https://raw.githubusercontent.com/himanshuchaurasiya24/axiom_releases/main/assets/screenshots/login.png" alt="Authentication" style="border: 2px solid #9D00FF; border-radius: 8px;"/>
 <br>
-<img src="https://img.shields.io/badge/SECURE-AUTHENTICATION-9D00FF?style=flat-square&labelColor=0A1628" />
+<img src="https://img.shields.io/badge/SECURE-AUTHENTICATION-9D00FF?style=flat-square" />
 </td>
 </tr>
 </table>
@@ -138,12 +138,12 @@
 <td width="50%" align="center">
 <img src="https://raw.githubusercontent.com/himanshuchaurasiya24/axiom_releases/main/assets/screenshots/dashboard.png" alt="Dashboard" style="border: 2px solid #00D4FF; border-radius: 8px;"/>
 <br>
-<img src="https://img.shields.io/badge/TACTICAL-DASHBOARD-00D4FF?style=flat-square&labelColor=0A1628" />
+<img src="https://img.shields.io/badge/TACTICAL-DASHBOARD-00D4FF?style=flat-square" />
 </td>
 <td width="50%" align="center">
 <img src="https://raw.githubusercontent.com/himanshuchaurasiya24/axiom_releases/main/assets/screenshots/files.png" alt="Files" style="border: 2px solid #9D00FF; border-radius: 8px;"/>
 <br>
-<img src="https://img.shields.io/badge/FILE-MANAGEMENT-9D00FF?style=flat-square&labelColor=0A1628" />
+<img src="https://img.shields.io/badge/FILE-MANAGEMENT-9D00FF?style=flat-square" />
 </td>
 </tr>
 </table>
@@ -155,7 +155,7 @@
 <td align="center">
 <img src="https://raw.githubusercontent.com/himanshuchaurasiya24/axiom_releases/main/assets/screenshots/decrypting.png" alt="Decryption" style="border: 2px solid #00D4FF; border-radius: 8px;"/>
 <br>
-<img src="https://img.shields.io/badge/LIVE_PROGRESS-MONITORING-00D4FF?style=flat-square&labelColor=0A1628" />
+<img src="https://img.shields.io/badge/LIVE_PROGRESS-MONITORING-00D4FF?style=flat-square" />
 </td>
 </tr>
 </table>
@@ -263,28 +263,28 @@ Access: User Exclusive
 <tr>
 <td align="center" width="25%">
 <br>
-<img src="https://img.shields.io/badge/🖼️-IMAGES-00D4FF?style=for-the-badge&labelColor=0A1628" />
+<img src="https://img.shields.io/badge/🖼️-IMAGES-00D4FF?style=for-the-badge" />
 <br><br>
 JPG • PNG • WebP<br>HEIC • GIF • BMP
 <br><br>
 </td>
 <td align="center" width="25%">
 <br>
-<img src="https://img.shields.io/badge/🎬-VIDEOS-9D00FF?style=for-the-badge&labelColor=0A1628" />
+<img src="https://img.shields.io/badge/🎬-VIDEOS-9D00FF?style=for-the-badge" />
 <br><br>
 MP4 • MKV • AVI<br>MOV • WebM • FLV
 <br><br>
 </td>
 <td align="center" width="25%">
 <br>
-<img src="https://img.shields.io/badge/📄-DOCUMENTS-00D4FF?style=for-the-badge&labelColor=0A1628" />
+<img src="https://img.shields.io/badge/📄-DOCUMENTS-00D4FF?style=for-the-badge" />
 <br><br>
 PDF • TXT • DOCX<br>XLSX • PPTX • MD
 <br><br>
 </td>
 <td align="center" width="25%">
 <br>
-<img src="https://img.shields.io/badge/🎵-AUDIO-9D00FF?style=for-the-badge&labelColor=0A1628" />
+<img src="https://img.shields.io/badge/🎵-AUDIO-9D00FF?style=for-the-badge" />
 <br><br>
 MP3 • WAV • FLAC<br>AAC • OGG • M4A
 <br><br>
@@ -358,29 +358,29 @@ graph LR
 
 ### CORE FRAMEWORK
 
-![Flutter](https://img.shields.io/badge/FLUTTER_3.0+-02569B?style=for-the-badge&logo=flutter&logoColor=00D4FF&labelColor=0A1628)
-![Dart](https://img.shields.io/badge/DART_3.0+-0175C2?style=for-the-badge&logo=dart&logoColor=00D4FF&labelColor=0A1628)
-![Riverpod](https://img.shields.io/badge/RIVERPOD-STATE_MGMT-9D00FF?style=for-the-badge&logo=flutter&logoColor=00D4FF&labelColor=0A1628)
+![Flutter](https://img.shields.io/badge/FLUTTER_3.0+-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/DART_3.0+-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![Riverpod](https://img.shields.io/badge/RIVERPOD-STATE_MGMT-9D00FF?style=for-the-badge&logo=flutter&logoColor=white)
 
 ### CRYPTOGRAPHY
 
-![PointyCastle](https://img.shields.io/badge/POINTYCASTLE-AES_ENGINE-00D4FF?style=for-the-badge&logo=lock&logoColor=00D4FF&labelColor=0A1628)
-![HKDF](https://img.shields.io/badge/HKDF-KEY_DERIVATION-9D00FF?style=for-the-badge&logo=key&logoColor=00D4FF&labelColor=0A1628)
-![AES](https://img.shields.io/badge/AES--256--GCM-ENCRYPTION-00D4FF?style=for-the-badge&logo=shield&logoColor=00D4FF&labelColor=0A1628)
+![PointyCastle](https://img.shields.io/badge/POINTYCASTLE-AES_ENGINE-00D4FF?style=for-the-badge&logo=lock&logoColor=white)
+![HKDF](https://img.shields.io/badge/HKDF-KEY_DERIVATION-9D00FF?style=for-the-badge&logo=key&logoColor=white)
+![AES](https://img.shields.io/badge/AES--256--GCM-ENCRYPTION-00D4FF?style=for-the-badge&logo=shield&logoColor=white)
 
 ### PLATFORM INTEGRATION
 
-![Media Kit](https://img.shields.io/badge/MEDIA_KIT-VIDEO_ENGINE-9D00FF?style=for-the-badge&logo=play&logoColor=00D4FF&labelColor=0A1628)
-![Syncfusion](https://img.shields.io/badge/SYNCFUSION-PDF_VIEWER-00D4FF?style=for-the-badge&logo=adobe&logoColor=00D4FF&labelColor=0A1628)
-![Dio](https://img.shields.io/badge/DIO-HTTP_CLIENT-9D00FF?style=for-the-badge&logo=server&logoColor=00D4FF&labelColor=0A1628)
+![Media Kit](https://img.shields.io/badge/MEDIA_KIT-VIDEO_ENGINE-9D00FF?style=for-the-badge&logo=play&logoColor=white)
+![Syncfusion](https://img.shields.io/badge/SYNCFUSION-PDF_VIEWER-00D4FF?style=for-the-badge&logo=adobe&logoColor=white)
+![Dio](https://img.shields.io/badge/DIO-HTTP_CLIENT-9D00FF?style=for-the-badge&logo=server&logoColor=white)
 
 ### SUPPORTED PLATFORMS
 
-![Android](https://img.shields.io/badge/ANDROID-3DDC84?style=for-the-badge&logo=android&logoColor=0A1628)
-![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=apple&logoColor=00D4FF)
-![Windows](https://img.shields.io/badge/WINDOWS-0078D6?style=for-the-badge&logo=windows&logoColor=00D4FF)
-![macOS](https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=00D4FF)
-![Linux](https://img.shields.io/badge/LINUX-FCC624?style=for-the-badge&logo=linux&logoColor=0A1628)
+![Android](https://img.shields.io/badge/ANDROID-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=apple&logoColor=white)
+![Windows](https://img.shields.io/badge/WINDOWS-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+![macOS](https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white)
+![Linux](https://img.shields.io/badge/LINUX-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 </div>
 
@@ -491,8 +491,8 @@ graph LR
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/EMAIL-himanshuchaurasiya24@gmail.com-00D4FF?style=for-the-badge&logo=gmail&logoColor=00D4FF&labelColor=0A1628)](mailto:himanshuchaurasiya24@gmail.com)
-[![Developer](https://img.shields.io/badge/DEVELOPER-himanshuchaurasiya24-9D00FF?style=for-the-badge&logo=github&logoColor=00D4FF&labelColor=0A1628)](https://github.com/himanshuchaurasiya24)
+[![Email](https://img.shields.io/badge/EMAIL-himanshuchaurasiya24@gmail.com-00D4FF?style=for-the-badge&logo=gmail&logoColor=white)](mailto:himanshuchaurasiya24@gmail.com)
+[![Developer](https://img.shields.io/badge/DEVELOPER-himanshuchaurasiya24-9D00FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/himanshuchaurasiya24)
 
 </div>
 
@@ -526,19 +526,19 @@ graph LR
 <table width="100%">
 <tr>
 <td align="center" width="25%">
-<img src="https://img.shields.io/badge/DATA_ACCESS-ZERO-00D4FF?style=for-the-badge&labelColor=0A1628" />
+<img src="https://img.shields.io/badge/DATA_ACCESS-ZERO-00D4FF?style=for-the-badge" />
 <br><sub>We cannot access<br>your encrypted files</sub>
 </td>
 <td align="center" width="25%">
-<img src="https://img.shields.io/badge/ANALYTICS-NONE-9D00FF?style=for-the-badge&labelColor=0A1628" />
+<img src="https://img.shields.io/badge/ANALYTICS-NONE-9D00FF?style=for-the-badge" />
 <br><sub>Zero tracking,<br>telemetry, or logging</sub>
 </td>
 <td align="center" width="25%">
-<img src="https://img.shields.io/badge/DATA_SHARING-NEVER-00D4FF?style=for-the-badge&labelColor=0A1628" />
+<img src="https://img.shields.io/badge/DATA_SHARING-NEVER-00D4FF?style=for-the-badge" />
 <br><sub>We never sell or<br>share user data</sub>
 </td>
 <td align="center" width="25%">
-<img src="https://img.shields.io/badge/KEYS-LOCAL_ONLY-9D00FF?style=for-the-badge&labelColor=0A1628" />
+<img src="https://img.shields.io/badge/KEYS-LOCAL_ONLY-9D00FF?style=for-the-badge" />
 <br><sub>Encryption keys<br>stored locally only</sub>
 </td>
 </tr>
@@ -564,9 +564,9 @@ graph LR
 
 <br>
 
-![Version](https://img.shields.io/badge/VERSION-3.0.0-00D4FF?style=for-the-badge&labelColor=0A1628)
-![Flutter](https://img.shields.io/badge/POWERED_BY-FLUTTER-02569B?style=for-the-badge&logo=flutter&logoColor=00D4FF&labelColor=0A1628)
-![Encryption](https://img.shields.io/badge/ENCRYPTED_WITH-AES--256--GCM-9D00FF?style=for-the-badge&logo=lock&logoColor=00D4FF&labelColor=0A1628)
+![Version](https://img.shields.io/badge/VERSION-3.0.0-00D4FF?style=for-the-badge)
+![Flutter](https://img.shields.io/badge/POWERED_BY-FLUTTER-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Encryption](https://img.shields.io/badge/ENCRYPTED_WITH-AES--256--GCM-9D00FF?style=for-the-badge&logo=lock&logoColor=white)
 
 <br>
 
